@@ -1,0 +1,259 @@
+=2025-01-16 13:34:25 - select pg_catalog.version()
+2025-01-16 13:34:25 - [raw sql] ()
+2025-01-16 13:34:25 - select current_schema()
+2025-01-16 13:34:25 - [raw sql] ()
+2025-01-16 13:34:25 - show standard_conforming_strings
+2025-01-16 13:34:25 - [raw sql] ()
+2025-01-16 13:34:25 - BEGIN (implicit)
+2025-01-16 13:34:25 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:34:25 - [generated in 0.00128s] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:34:25 - Original record: <models.FranchiseRequest object at 0x00000132E5D1DBE0>
+2025-01-16 13:34:25 - Updated record: <models.FranchiseRequest object at 0x00000132E5D1DBE0>
+2025-01-16 13:34:25 - Error during commit: A transaction is already begun on this Session.
+2025-01-16 13:34:25 - ROLLBACK
+2025-01-16 13:35:32 - select pg_catalog.version()
+2025-01-16 13:35:32 - [raw sql] ()
+2025-01-16 13:35:32 - select current_schema()
+2025-01-16 13:35:32 - [raw sql] ()
+2025-01-16 13:35:32 - show standard_conforming_strings
+2025-01-16 13:35:32 - [raw sql] ()
+2025-01-16 13:35:32 - BEGIN (implicit)
+2025-01-16 13:35:32 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:35:32 - [generated in 0.00064s] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:35:32 - Original record: <models.FranchiseRequest object at 0x0000021A018B7530>
+2025-01-16 13:35:32 - Updated record: <models.FranchiseRequest object at 0x0000021A018B7530>
+2025-01-16 13:35:32 - Error during commit: A transaction is already begun on this Session.
+2025-01-16 13:35:32 - ROLLBACK
+2025-01-16 13:38:09 - select pg_catalog.version()
+2025-01-16 13:38:09 - [raw sql] ()
+2025-01-16 13:38:09 - select current_schema()
+2025-01-16 13:38:09 - [raw sql] ()
+2025-01-16 13:38:09 - show standard_conforming_strings
+2025-01-16 13:38:09 - [raw sql] ()
+2025-01-16 13:38:09 - BEGIN (implicit)
+2025-01-16 13:38:09 - SELECT franchise_requests.id, franchise_requests.full_name, franchise_requests.phone, franchise_requests.email, franchise_requests.ownership_type, franchise_requests.planned_investments, franchise_requests.premises_type, franchise_requests.franchise_source, franchise_requests.date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:38:09 - [generated in 0.00078s] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:38:09 - COMMIT
+2025-01-16 13:38:09 - BEGIN (implicit)
+2025-01-16 13:38:09 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:38:09 - [generated in 0.00066s] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:38:09 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:38:09 - [cached since 0.002573s ago] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:38:09 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:38:09 - [cached since 0.005433s ago] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:38:09 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:38:09 - [cached since 0.006703s ago] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:38:09 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:38:09 - [cached since 0.007691s ago] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:38:09 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:38:09 - [cached since 0.008666s ago] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:38:09 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:38:09 - [cached since 0.009523s ago] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:38:09 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:38:09 - [cached since 0.01049s ago] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:38:09 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:38:09 - [cached since 0.01138s ago] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:38:09 - ROLLBACK
+2025-01-16 13:38:55 - select pg_catalog.version()
+2025-01-16 13:38:55 - [raw sql] ()
+2025-01-16 13:38:55 - select current_schema()
+2025-01-16 13:38:55 - [raw sql] ()
+2025-01-16 13:38:55 - show standard_conforming_strings
+2025-01-16 13:38:55 - [raw sql] ()
+2025-01-16 13:38:55 - BEGIN (implicit)
+2025-01-16 13:38:55 - SELECT franchise_requests.id, franchise_requests.full_name, franchise_requests.phone, franchise_requests.email, franchise_requests.ownership_type, franchise_requests.planned_investments, franchise_requests.premises_type, franchise_requests.franchise_source, franchise_requests.date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:38:55 - [generated in 0.00058s] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:38:55 - COMMIT
+2025-01-16 13:38:55 - BEGIN (implicit)
+2025-01-16 13:38:55 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:38:55 - [generated in 0.00203s] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:38:55 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:38:55 - [cached since 0.003198s ago] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:38:55 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:38:55 - [cached since 0.004037s ago] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:38:55 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:38:55 - [cached since 0.00487s ago] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:38:55 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:38:55 - [cached since 0.005724s ago] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:38:55 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:38:55 - [cached since 0.006574s ago] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:38:55 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:38:55 - [cached since 0.007645s ago] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:38:55 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:38:55 - [cached since 0.00863s ago] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:38:55 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:38:55 - [cached since 0.009518s ago] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:38:55 - ROLLBACK
+2025-01-16 13:40:05 - select pg_catalog.version()
+2025-01-16 13:40:05 - [raw sql] ()
+2025-01-16 13:40:05 - select current_schema()
+2025-01-16 13:40:05 - [raw sql] ()
+2025-01-16 13:40:05 - show standard_conforming_strings
+2025-01-16 13:40:05 - [raw sql] ()
+2025-01-16 13:40:05 - BEGIN (implicit)
+2025-01-16 13:40:05 - SELECT franchise_requests.id, franchise_requests.full_name, franchise_requests.phone, franchise_requests.email, franchise_requests.ownership_type, franchise_requests.planned_investments, franchise_requests.premises_type, franchise_requests.franchise_source, franchise_requests.date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:40:05 - [generated in 0.00093s] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:40:05 - COMMIT
+2025-01-16 13:40:05 - BEGIN (implicit)
+2025-01-16 13:40:05 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:40:05 - [generated in 0.00077s] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:40:05 - ROLLBACK
+2025-01-16 13:42:07 - select pg_catalog.version()
+2025-01-16 13:42:07 - [raw sql] ()
+2025-01-16 13:42:07 - select current_schema()
+2025-01-16 13:42:07 - [raw sql] ()
+2025-01-16 13:42:07 - show standard_conforming_strings
+2025-01-16 13:42:07 - [raw sql] ()
+2025-01-16 13:42:07 - BEGIN (implicit)
+2025-01-16 13:42:07 - SELECT franchise_requests.id AS franchise_requests_id, franchise_requests.full_name AS franchise_requests_full_name, franchise_requests.phone AS franchise_requests_phone, franchise_requests.email AS franchise_requests_email, franchise_requests.ownership_type AS franchise_requests_ownership_type, franchise_requests.planned_investments AS franchise_requests_planned_investments, franchise_requests.premises_type AS franchise_requests_premises_type, franchise_requests.franchise_source AS franchise_requests_franchise_source, franchise_requests.date_submitted AS franchise_requests_date_submitted 
+FROM franchise_requests 
+WHERE franchise_requests.id = $1::UUID
+2025-01-16 13:42:07 - [generated in 0.00111s] (UUID('4783cc29-60d8-4380-9043-d58ecddb33ce'),)
+2025-01-16 13:42:07 - Original record: <models.FranchiseRequest object at 0x0000020BD2225580>
+2025-01-16 13:42:07 - Updated record: <models.FranchiseRequest object at 0x0000020BD2225580>
+2025-01-16 13:42:07 - Error during commit: A transaction is already begun on this Session.
+2025-01-16 13:42:07 - ROLLBACK
+2025-01-17 09:40:26 - select pg_catalog.version()
+2025-01-17 09:40:26 - [raw sql] ()
+2025-01-17 09:40:26 - select current_schema()
+2025-01-17 09:40:26 - [raw sql] ()
+2025-01-17 09:40:26 - show standard_conforming_strings
+2025-01-17 09:40:26 - [raw sql] ()
+2025-01-17 09:40:26 - BEGIN (implicit)
+2025-01-17 09:40:26 - SELECT emails.id, emails.email, emails.date 
+FROM emails 
+ LIMIT $1::INTEGER OFFSET $2::INTEGER
+2025-01-17 09:40:26 - [generated in 0.00062s] (50, 0)
+2025-01-17 09:40:26 - ROLLBACK
+2025-01-17 09:43:24 - BEGIN (implicit)
+2025-01-17 09:43:24 - SELECT emails.id, emails.email, emails.date 
+FROM emails 
+ LIMIT $1::INTEGER OFFSET $2::INTEGER
+2025-01-17 09:43:24 - [cached since 177.5s ago] (50, 0)
+2025-01-17 09:43:24 - ROLLBACK
+2025-01-17 09:43:34 - BEGIN (implicit)
+2025-01-17 09:43:34 - SELECT emails.id, emails.email, emails.date 
+FROM emails 
+ LIMIT $1::INTEGER OFFSET $2::INTEGER
+2025-01-17 09:43:34 - [cached since 188.1s ago] (50, 0)
+2025-01-17 09:43:34 - ROLLBACK
+2025-01-17 09:50:10 - BEGIN (implicit)
+2025-01-17 09:50:10 - SELECT franchise_requests.id, franchise_requests.full_name, franchise_requests.phone, franchise_requests.email, franchise_requests.ownership_type, franchise_requests.planned_investments, franchise_requests.premises_type, franchise_requests.franchise_source, franchise_requests.date_submitted 
+FROM franchise_requests 
+ LIMIT $1::INTEGER OFFSET $2::INTEGER
+2025-01-17 09:50:10 - [generated in 0.00053s] (100000, 0)
+2025-01-17 09:50:10 - ROLLBACK
+2025-01-17 09:50:11 - BEGIN (implicit)
+2025-01-17 09:50:11 - SELECT emails.id, emails.email, emails.date 
+FROM emails 
+ LIMIT $1::INTEGER OFFSET $2::INTEGER
+2025-01-17 09:50:11 - [cached since 584.5s ago] (50, 0)
+2025-01-17 09:50:11 - ROLLBACK
+2025-01-17 09:50:11 - BEGIN (implicit)
+2025-01-17 09:50:11 - SELECT franchise_requests.id, franchise_requests.full_name, franchise_requests.phone, franchise_requests.email, franchise_requests.ownership_type, franchise_requests.planned_investments, franchise_requests.premises_type, franchise_requests.franchise_source, franchise_requests.date_submitted 
+FROM franchise_requests 
+ LIMIT $1::INTEGER OFFSET $2::INTEGER
+2025-01-17 09:50:11 - [cached since 1.129s ago] (100000, 0)
+2025-01-17 09:50:11 - ROLLBACK
+2025-01-17 09:50:12 - BEGIN (implicit)
+2025-01-17 09:50:12 - SELECT emails.id, emails.email, emails.date 
+FROM emails 
+ LIMIT $1::INTEGER OFFSET $2::INTEGER
+2025-01-17 09:50:12 - [cached since 586.3s ago] (50, 0)
+2025-01-17 09:50:12 - ROLLBACK
+2025-01-17 09:54:12 - BEGIN (implicit)
+2025-01-17 09:54:12 - SELECT franchise_requests.id, franchise_requests.full_name, franchise_requests.phone, franchise_requests.email, franchise_requests.ownership_type, franchise_requests.planned_investments, franchise_requests.premises_type, franchise_requests.franchise_source, franchise_requests.date_submitted 
+FROM franchise_requests 
+ LIMIT $1::INTEGER OFFSET $2::INTEGER
+2025-01-17 09:54:12 - [cached since 241.4s ago] (100000, 0)
+2025-01-17 09:54:12 - ROLLBACK
+2025-01-17 09:54:21 - BEGIN (implicit)
+2025-01-17 09:54:21 - SELECT emails.id, emails.email, emails.date 
+FROM emails 
+ LIMIT $1::INTEGER OFFSET $2::INTEGER
+2025-01-17 09:54:21 - [cached since 834.5s ago] (50, 0)
+2025-01-17 09:54:21 - ROLLBACK
+2025-01-20 10:59:02 - select pg_catalog.version()
+2025-01-20 10:59:02 - [raw sql] ()
+2025-01-20 10:59:02 - select current_schema()
+2025-01-20 10:59:02 - [raw sql] ()
+2025-01-20 10:59:02 - show standard_conforming_strings
+2025-01-20 10:59:02 - [raw sql] ()
+2025-01-20 10:59:02 - BEGIN (implicit)
+2025-01-20 10:59:02 - SELECT emails.id, emails.email, emails.date 
+FROM emails 
+ LIMIT $1::INTEGER OFFSET $2::INTEGER
+2025-01-20 10:59:02 - [generated in 0.00134s] (50, 0)
+2025-01-20 10:59:02 - ROLLBACK
+2025-01-20 11:02:13 - BEGIN (implicit)
+2025-01-20 11:02:13 - SELECT franchise_requests.id, franchise_requests.full_name, franchise_requests.phone, franchise_requests.email, franchise_requests.ownership_type, franchise_requests.planned_investments, franchise_requests.premises_type, franchise_requests.franchise_source, franchise_requests.date_submitted 
+FROM franchise_requests 
+ LIMIT $1::INTEGER OFFSET $2::INTEGER
+2025-01-20 11:02:13 - [generated in 0.00293s] (100000, 0)
+2025-01-20 11:02:13 - ROLLBACK
+2025-01-20 11:02:29 - BEGIN (implicit)
+2025-01-20 11:02:29 - SELECT emails.id, emails.email, emails.date 
+FROM emails 
+ LIMIT $1::INTEGER OFFSET $2::INTEGER
+2025-01-20 11:02:29 - [cached since 207.4s ago] (50, 0)
+2025-01-20 11:02:29 - ROLLBACK
+2025-01-20 11:05:46 - BEGIN (implicit)
+2025-01-20 11:05:46 - SELECT franchise_requests.id, franchise_requests.full_name, franchise_requests.phone, franchise_requests.email, franchise_requests.ownership_type, franchise_requests.planned_investments, franchise_requests.premises_type, franchise_requests.franchise_source, franchise_requests.date_submitted 
+FROM franchise_requests 
+ LIMIT $1::INTEGER OFFSET $2::INTEGER
+2025-01-20 11:05:46 - [cached since 213s ago] (100000, 0)
+2025-01-20 11:05:46 - ROLLBACK
+2025-01-20 11:05:46 - BEGIN (implicit)
+2025-01-20 11:05:46 - SELECT emails.id, emails.email, emails.date 
+FROM emails 
+ LIMIT $1::INTEGER OFFSET $2::INTEGER
+2025-01-20 11:05:46 - [cached since 403.9s ago] (50, 0)
+2025-01-20 11:05:46 - ROLLBACK
